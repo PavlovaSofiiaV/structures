@@ -4,4 +4,5 @@ project(structures)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(structures main.cpp
-        Node.h)
+        Node.h
+        SinglyLinkedList.h)
