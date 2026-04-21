@@ -8,9 +8,9 @@ int main() {
 
     SinglyLinkedList<int> s;
 
-    s.push_back(10);
+    s.push_back(5);
     s.push_back(7);
-    s.push_front(3);
+    s.push_front(9);
 
     std::cout << s << std::endl;
 
@@ -25,7 +25,7 @@ int main() {
     DoublyLinkedList<int> d;
 
     d.push_back(5);
-    d.push_back(4);
+    d.push_front(4);
     d.push_front(6);
 
     std::cout << d << std::endl;
