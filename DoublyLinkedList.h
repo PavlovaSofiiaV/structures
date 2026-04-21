@@ -4,6 +4,10 @@
 
 #ifndef STRUCTURES_DOUBLYLINKEDLIST_H
 #define STRUCTURES_DOUBLYLINKEDLIST_H
+#include "Node.h"
+#include <iostream>
+#include <memory>
+#include <stdexcept>
 
 template<typename T>
 class DoublyLinkedList {
@@ -152,7 +156,7 @@ public:
         }
         return -1;
     }
-    
+
     friend std::ostream& operator<<(std::ostream& os, const DoublyLinkedList<T>& list) {
         auto temp = list.head;
         while (temp) {

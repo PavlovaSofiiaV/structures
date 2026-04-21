@@ -4,7 +4,7 @@
 
 #ifndef STRUCTURES_NODE_H
 #define STRUCTURES_NODE_H
-
+#include <memory>
 template<typename T>
 struct Node {
     T data;
