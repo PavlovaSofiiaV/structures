@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(structures main.cpp
         Node.h
-        SinglyLinkedList.h)
+        SinglyLinkedList.h
+        DoublyLinkedList.h)
