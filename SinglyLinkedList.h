@@ -91,6 +91,10 @@ public:
             push_front(element);
             return;
         }
+        if (index == size) {
+            push_back(element);
+            return;
+        }
         auto newNode = std::make_shared<Node<T>>(element);
         auto temp = head;
         for (int i = 0; i < index - 1; i++) {

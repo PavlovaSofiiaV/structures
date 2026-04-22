@@ -86,7 +86,6 @@ public:
         return temp->data;
     }
 
-    // 🔹 вставка за індексом
     void insert(int index, T element) {
         if (index < 0 || index > size) {
             throw std::out_of_range("Index out of range");
